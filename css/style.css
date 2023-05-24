@@ -78,4 +78,104 @@ color: #ffffff;
     font-size: 5.025em;
     line-height: 80px;
   }
+
+/* About css start */
+#about .content-title h1{
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+}
+#about .content-title p{
+  width: 55%;
+  font-weight: 400;
+  line-height: 25px;
+}
+#about .content-title span{
+ margin-top: -10px;
+ width: 9%;
+ border-bottom: 1px solid #E73587;
+}
+#about .container-section{
+  background-image: url("../asset/img/Oval.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:contain;
+  padding: 50px;
+}
+/* end about css */
+
+/* start Service css */
+.service {
+  margin-bottom: -300px;
+}
+.carousel .card {
+  padding: 10px;
+  border-radius: 0;
+  border:  1px solid transparent;
+}
+.service  span{
+  width: 60%;
+  border-bottom: 1px solid #E73587;
+ }
+.carousel .card-1{
+  background: #FDF8E3;
+}
+.carousel .card-2{
+  background:  #F0F3FA;
+}
+.carousel .card-3{
+  background: #FEEFF0;
+}
+.card p, .card h5{
+line-height: 25px;
+font-weight: 100;
+}
+.card img{
+  height: 275px;
+}
+.card-body a{ 
+  padding: 10px 35px;
+  background: var(--color-gradient);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.service .carousel i{
+  background: var(--color-gradient);
+  padding: 25px 30px;
+  border-radius: 100%;
+  border: #ffffff solid 2px;
+ }
+.service .carousel button{
+  position:absolute;
+  right: -95px;
+}
+/* service css end */
+
+
+@media (max-width: 500px) {
+  #about .content-title p{
+   width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .carousel .card h5{
+    font-size: 30px;
+    }
+    .carousel .card p, .card-body a, #about .content-title p{
+      font-size: 1.375em;
+      line-height: 30px;
+    }
+    .slide1 .card-2,  .slide1 .card-3,.slide2 .card-1,  .slide2 .card-3,  .slide3 .card-1,  .slide3 .card-2{
+      display: none;
+    }
+   .service .carousel button{
+     position: default;
+     right: 0;
+   }
+   .service .container{
+    padding: 0 20px;
+   }
+
 }
