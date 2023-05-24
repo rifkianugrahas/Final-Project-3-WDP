@@ -5,6 +5,30 @@
   font-family: 'Basic', sans-serif;
 }
 
+.nav-atas > a {
+  color: black;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.nav-atas > a > .nav-active {
+  border-radius: 0px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+
+#rank {
+  margin-bottom: 0;
+}
+
+.but-pg1 {
+  margin-left: 3px;
+  padding: 10px 35px 10px 35px;
+  border: none;
+  font-size: 14px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  color: white;
+}
+
 .contact .left-content h4{
   font-size: 1.850em;
   font-weight: 400;
